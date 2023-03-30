@@ -63,7 +63,7 @@ def main():
 			print(f'{sr_no}) {files}')
 			sr_no+=1
 	ask_usr=int(input(">"))
-	if (ask_usr=='') or (ask_usr==None) or (ask_usr>=sr_no):
+	if (ask_usr=='') or (ask_usr==None) or (ask_usr>=sr_no) or (ask_usr==0):
 		print("invalid selection")
 	else:
 		#to make it look good aise design kr diya h
